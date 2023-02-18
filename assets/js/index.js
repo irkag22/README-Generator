@@ -1,5 +1,3 @@
-// TODO: Include packages needed for this application
-const { Console } = require('console');
 const fs = require('fs');
 const inquirer  = require ('inquirer');
 
@@ -14,7 +12,7 @@ const questions = [
  'Any license?', 
  'Any contributors?', 
  'How can it be tested?', 
- 'FAQs'
+ 'Questions'
 ];
 
 inquirer
@@ -38,12 +36,7 @@ inquirer
     },
   ])
   .then((data) => {
-    const filename = `${data.name.toLowerCase().split(' ').join('')}.json`;
-
-    fs.writeFile(filename, JSON.stringify(data, null, '\t'), (err) =>
-      err ? console.log(err) : console.log('Success!')
-    );
-  });
+//     
 // TODO: Create a function to write README file
 fs.writeToFile('readMeFile', 'utf8', data) {
 
