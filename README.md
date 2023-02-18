@@ -11,6 +11,7 @@ Generator can be run from source-code editors using node.js and inquirer.
 
 ## Usage
 Generator helps users generate professional-looking README.md files to include with their project. 
+[Example](https://drive.google.com/file/d/1h2GWIv0QFUgO1zNuiWxnYv-6lW6uED6l/view)
 <br>
 
 ## Contributors

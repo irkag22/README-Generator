@@ -27,12 +27,13 @@ inquirer
       message: 'Any license?',
       name: 'licenses',
       choices: ['MIT', 'Apache', 'CCL', 'BSD', 'GNU','Unilicense'],
+    //   generate link here?
     },
     {
-      type: 'list',
-      message: 'What is your preferred method of communication?',
+      type: 'input',
+      message: 'What is your e-mail address?',
       name: 'contact',
-      choices: ['email', 'phone', 'telekinesis'],
+     
     },
   ])
   .then((data) => {
